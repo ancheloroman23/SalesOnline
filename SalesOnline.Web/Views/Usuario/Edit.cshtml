@@ -1,0 +1,53 @@
+﻿@model SalesOnline.Web.Models.Responses.UsuarioViewResult
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Editar Usuario</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label class="control-label">Codigo</label>
+                <input asp-for="idUsuario" class="form-control" readonly />
+                <span asp-validation-for="idUsuario" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label  class="control-label">Nombre Completo</label>
+                <input asp-for="nombreCompleto" class="form-control" />
+                <span asp-validation-for="nombreCompleto" class="text-danger"></span>
+            </div>            
+            <div class="form-group">
+                <label class="control-label">Fecha Registro</label>
+                <input asp-for="fechaRegistro" class="form-control" />
+                <span asp-validation-for="fechaRegistro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">correo</label>
+                <input asp-for="correo" class="form-control" />
+                <span asp-validation-for="correo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">clave</label>
+                <input asp-for="clave" class="form-control" />
+                <span asp-validation-for="clave" class="text-danger"></span>
+            </div>
+        
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

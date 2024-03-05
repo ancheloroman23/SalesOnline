@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SalesOnline.Domain.Core.BaseEntity" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAABAABAAAAAAAAAAABAAAAAAAQAAAAAACA=</HashCode>
+      <FileName>Core\BaseEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalesOnline.Domain.Core.Person" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAQAAAAEAA=</HashCode>
+      <FileName>Core\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalesOnline.Domain.Entities.Category" Collapsed="true">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAABAAACAAAAAAAAEAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Entities\Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalesOnline.Domain.Entities.DetalleVenta" Collapsed="true">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAgAAABAAAAAAAACAAAEAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Entities\DetalleVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalesOnline.Domain.Entities.Empleado" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEA=</HashCode>
+      <FileName>Entities\Empleado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalesOnline.Domain.Entities.Usuario" Collapsed="true">
+    <Position X="0.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEABAEAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalesOnline.Domain.Entities.Menu" Collapsed="true">
+    <Position X="5.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAACAAAAAAAAAEAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalesOnline.Domain.Entities.MenuRol" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAEAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Entities\MenuRol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalesOnline.Domain.Entities.NumeroDocumento" Collapsed="true">
+    <Position X="6.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAACAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Entities\NumeroDocumento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalesOnline.Domain.Entities.Producto" Collapsed="true">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAgAAAAAAAAIAAEAAAAEIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Producto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalesOnline.Domain.Entities.Rol" Collapsed="true">
+    <Position X="2.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Rol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalesOnline.Domain.Entities.Venta" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAEgAAAABAAA=</HashCode>
+      <FileName>Entities\Venta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
